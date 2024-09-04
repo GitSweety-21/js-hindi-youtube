@@ -37,12 +37,43 @@ let myObj = {
 
 }
 
- const myFunction = function(){
-    console.log("Hello World");   //Function
- }
+//  const myFunction = function(){
+//     console.log("Hello World");   //Function
+//  }
 
- console.log(typeof outsideTemp);
- console.log(typeof scoreValue);
- console.log(typeof isLoggedIn);
- console.log(typeof myFunction);
- console.log(typeof id);
+//  console.log(typeof outsideTemp);
+//  console.log(typeof scoreValue);
+//  console.log(typeof isLoggedIn);
+//  console.log(typeof myFunction);
+//  console.log(typeof id);
+
+
+
+
+// +++++++++++++++++++++++++++MEMORY+++++++++++++++++++++++++++++++
+
+//memory are two types:=
+                      //1.Stack(Primitive)
+                      //2.Heap(Non-premitive)
+
+
+let myhomename = "sweetyBehera"
+
+let anothername = myhomename;
+
+anothername = "chaiaurcode"
+
+console.log(myhomename);
+console.log(anothername);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "sweety@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
